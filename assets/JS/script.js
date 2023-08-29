@@ -1,7 +1,7 @@
-let n = prompt("Escolha um numero de 0 a 9")
+let n = prompt("Escolha um numero de 0 a 10")
 n = parseInt(n)
 
-let  s = Math.floor(Math.random() * 10 )
+let  s = Math.floor(Math.random() * 11 )
 document.querySelector(".info").innerHTML = s
 
 if (n === s) {
