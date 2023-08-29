@@ -1,4 +1,4 @@
-let n = prompt("Escolha um numero de 1 a 10")
+let n = prompt("Escolha um numero de 0 a 9")
 n = parseInt(n)
 
 let  s = Math.floor(Math.random() * 10 )
